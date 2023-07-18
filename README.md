@@ -7,7 +7,7 @@ Pruebas Tecnicas en **React** basado en proyectos.
 
 ## 📹 Temario
 
-- 1: [Prueba técnica de React con TypeScript]
+- 1: Prueba técnica de React con TypeScript
 - 2: React Query + Paginación + Infinite Scroll
 - 3: JavaScript Quiz con Zustand + TypeScript desde cero
 - 4: Hacker News con TypeScript + SWR 
@@ -16,7 +16,6 @@ Pruebas Tecnicas en **React** basado en proyectos.
 
 | Número | Proyecto | Código | Web |
 | --- | --- | --- | --- |
-
 | `1` | Prueba Técnica con TypeScript y React | [Ver](react-typescript) | [Visitar]() |
 | `2` | Prueba Técnica con TypeScript y React con React Query | [Ver](react-typescript-query) | [Visitar]() |
 | `3` | Sistema de comentarios con React Query | [Ver](react-query) | [Visitar]() |
