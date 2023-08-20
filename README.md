@@ -17,6 +17,6 @@ Pruebas Tecnicas en **React** basado en proyectos.
 | Número | Proyecto | Código | Web |
 | --- | --- | --- | --- |
 | `1` | Prueba Técnica con TypeScript y React | [Ver](react-typescript) | [Visitar]() |
-| `2` | Prueba Técnica con TypeScript y React con React Query | [Ver](react-typescript-query) | [Visitar]() |
+| `2` | Prueba Técnica con TypeScript y React con React Query | [Ver](react-typescript-scroll) | [Visitar]() |
 | `3` | Sistema de comentarios con React Query | [Ver](react-query) | [Visitar]() |
 
