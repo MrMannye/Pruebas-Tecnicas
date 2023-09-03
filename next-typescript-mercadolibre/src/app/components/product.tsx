@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Product({product, index}:any) {
   return (
-    <Link href={`/items/${product.id}`} className='flex max-w-4xl w-full bg-white p-4 px-10 mb-2 items-start'>
+    <Link href={`/items/${product.id}`} className='flex bg-white p-4 px-10 mb-2'>
       <img src={product.thumbnail} className='w-[120px] h-[120px]' alt="Image Product" />
         <div className='flex flex-1 flex-col ml-4'>
           <span className='text-base mb-2 flex items-center'>$ {product.price} {index % 2 === 0 && <img src="/verified.png" className='w-4 h-4 ml-1' alt="verified" /> } </span>

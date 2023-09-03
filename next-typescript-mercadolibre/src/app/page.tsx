@@ -1,8 +1,10 @@
 export default function Home() {
 
   return (
-    <main className="bg-slate-200">
+    <main className="">
       Prueba Tecnica de Mercado Libre
+      <hr />
+      Busca un producto
     </main>
   )
 }
