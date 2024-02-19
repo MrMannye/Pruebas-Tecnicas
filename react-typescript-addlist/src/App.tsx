@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useCallback, useState } from 'react'
 import './App.css'
 import {Item, ItemID} from '../types'
 import ItemsList from "../components/ItemsList"
@@ -20,9 +20,12 @@ function App() {
     setItems(prevItems => { return [...prevItems, newItem] })
     setMessage("")
   }
-  const toggleDeleteItem = (id: ItemID) => {
-    setItems(prevItems => { return prevItems.filter(item => item.id != id) })
-  }
+  const deleteItem = useCallback(
+    (id: ItemID) => {
+      setItems(prevItems => { return prevItems.filter(item => item.id != id) })
+    },
+    [],
+  )
 
   return (
     <main>
@@ -36,7 +39,7 @@ function App() {
         </form>
       </aside>
 
-      <ItemsList items={items} deleteItem={toggleDeleteItem} />
+      <ItemsList items={items} deleteItem={deleteItem} />
       
     </main>
   )
